@@ -1,0 +1,24 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories{ mavenCentral() }
+
+mainClassName = "bbb.start.Startup"
+
+
+dependencies {
+	compile "javax.mail:mail:1.4"
+	compile 'com.jayway.jsonpath:json-path:2.2.0'
+	compile 'org.apache.derby:derby:10.12.1.1'
+
+	testCompile "junit:junit:4.12"
+}
+
+task initDB(type:JavaExec) {
+	 doFirst {
+		 def dbdir = new File('kunden')
+     dbdir.deleteDir()
+	 }
+   main = "bbb.start.DatabaseInitialization"
+   classpath = sourceSets.main.runtimeClasspath
+}

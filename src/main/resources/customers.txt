@@ -1,0 +1,2 @@
+some.mailaddr@example.com
+another.mail@example.com

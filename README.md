@@ -1,10 +1,10 @@
 # BBB
 Die aus dem ersten Praktikum bekannte Eisdielen Marketing-Anwendung soll auf das Spring Framework portiert werden. In diesem Repository finden Sie eine Version, die bereits Dependency Injection verwendet. Das passiert hier aber noch per Hand. Ihre Aufgabe ist es, die Anwendung so umzuschreiben, dass die Konstruktion von Klassen mit Hilfe des Spring Frameworks statt per Hand durchgeführt wird.
 
-Implementieren Sie in einem neuen Branch `xml`  eine Version, die mit Hilfe einer XML Konfiguration funktioniert und in einem neuen Branch `annotation` eine Version, die mit Hilfe von Annotationen fonktioniert.
+Implementieren Sie in einem neuen Branch `xml`  eine Version, die mit Hilfe einer XML Konfiguration funktioniert und in einem neuen Branch `annotation` eine Version, die mit Hilfe von Annotationen funktioniert.
 
 # Anwendung konfigurieren und Ausführen
-Im folgenden ist beschrieben, wie Sie die Anwendung für einen Systemtest konfigurieren und in Betrieb nehmen können.
+Im Folgenden ist beschrieben, wie Sie die Anwendung für einen Systemtest konfigurieren und in Betrieb nehmen können. 
 
 ## Konfiguration
 Die Anwendung wird über eine Datei `src/main/resources/credentials.properties` konfiguriert. Es wird ein Google Mailaccount  enötigt und ein API Key von [Open Weathermap](http://openweathermap.org/api).

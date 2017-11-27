@@ -19,4 +19,4 @@ forecast.key=theapikey
 Es gibt zusätzlich eine Datei `src/main/resources/customers.txt`, in der der initiale Inhalt der Kundendataenbank gespeichert ist.
 
 ## Ausführen der Anwendung
-Die Anwendung besteht aus zwei Programmen. Ein Programm zur Initialisierung der Datenbank und die Marketinganwendung. Die Programme können aus Gradle heraus gestartet werden, dazu existieren zwei Tasks ```initDB``` um die Datenbank zu initialisieren und ```bootRun```, um die Marketinganwendung zu starten.
+Die Anwendung besteht aus zwei Programmen. Ein Programm zur Initialisierung der Datenbank und die Marketinganwendung. Die Programme können aus Gradle heraus gestartet werden, dazu existieren zwei Tasks ```initDB``` um die Datenbank zu initialisieren und ```run```, um die Marketinganwendung zu starten.
